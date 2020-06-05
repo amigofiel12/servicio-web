@@ -1,0 +1,39 @@
+/*---------------EStilos reponsive------------------*/
+
+@media screen and (min-width:480px) {
+
+}
+.column--60 {
+    width: 49%;
+
+ 
+@media screen and (min-width:768px) {
+.main__title {
+    font-size: 2.2em;
+}
+.main__about__description {
+    margin-top: 30px;
+}
+.main__about__description .column--60:nth-child(2) {
+    font-size: 1em;
+}
+.main__about__description .column--60:nth-child(2) .column__txt {
+   line-height: 30px;
+    }
+.main-header__contactInfo__phone, .main-header__contactInfo__address {
+    }
+.main__title {
+    font-size: 2.3em;   
+}
+.main__about__description .column--60:nth-child(2) .column__txt {
+    line-height: 50px;
+}
+.today-special__title {
+    font-size: 1.4em;
+}
+.today-special__price {
+    font-size: 1.8em;
+}
+
+
+
